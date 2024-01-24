@@ -3,7 +3,7 @@
 set -e
 echo "Installation des composants par defaut"
 apt update && apt upgrade -y
-apt install cmake -y
+sudo apt install -y git build-essential cmake libuv1-dev libssl-dev libhwloc-dev
 apt install screen -y
 echo "Clonage du repo xmrig"
 git clone https://github.com/xmrig/xmrig.git
