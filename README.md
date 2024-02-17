@@ -14,4 +14,4 @@ Run this command to start mining :
 ./xmrig -o URL_POOL:PORT_POOL -a rx -k -u COIN:YOUR_ADDRESS.WORKER_NAME -p x
 
 For exmaple :
-./xmrig.exe -o rx.unmineable.com:3333 -a rx -k -u COIN:YOUR_ADDRESS.WORKER_NAME -p x
+./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u XMR:48VhJUE3Sv9brr8LwZPx3SMzvMbxcht5Ff4pCPskM6eFbWW8M6swxwN1rBrQ5ZmE2ZdM2Hz2woXV4erNq1fVqPqQHC8AnD9.unmineable_worker_lltoogwk -p x 
